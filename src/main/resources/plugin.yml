@@ -1,0 +1,13 @@
+name: HomeSystem
+version: '${project.version}'
+main: eu.dragonarmy.homesystem.HomeSystem
+api-version: 1.19
+authors: [ NightFuryTimo ]
+description: HomeSystem
+website: www.nightfury.dev
+
+commands:
+  home:
+    usage: /home
+    description: To open the home menu
+    permission: homesystem.home
